@@ -1,0 +1,32 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: black solid 0.1px;
+    text-indent: -9999px;
+
+}
+
+.info {
+    border-radius: 6px;
+    background-color: lightslategray;
+    height: 400px;
+    width: 250px;
+    float: left;
+    border: black solid 1px ;
+}
+
+.horse {
+    border: black solid 0.1px;
+    background: url("./image/horse.png");
+    background-size: contain;
+    text-indent: -9999px;
+    width: 60px;
+    height: 60px;
+}
